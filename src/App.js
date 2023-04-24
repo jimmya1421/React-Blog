@@ -11,7 +11,7 @@ function App() {
   return (
     <>
  <Navbar />
-    <Routes>
+    <Routes basename="/React-Blog">
       <Route exact  path={process.env.PUBLIC_URL + '/'} element={<Home />} />
       <Route path='About' element={<About/>} />
       <Route path='Blog' element={<Blog/>} />
