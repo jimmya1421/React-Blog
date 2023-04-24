@@ -12,7 +12,7 @@ function App() {
     <>
  <Navbar />
     <Routes>
-      <Route exact path='/' element={<Home />} />
+      <Route exact  path={process.env.PUBLIC_URL + '/'} element={<Home />} />
       <Route path='About' element={<About/>} />
       <Route path='Blog' element={<Blog/>} />
       <Route path='Post/:postId' element={<Post />} />
