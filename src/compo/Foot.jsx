@@ -14,8 +14,8 @@ const Foot = () => {
           <a href="#" className="inline-block mr-4 hover:text-gray-800">
             Contact Us
           </a>
-          <a href="tel:9067295372" className="inline-block mr-4 hover:text-gray-800">
-            Call me (don't just kidding , want to try how this works )
+          <a href="tel:100" className="inline-block mr-4 hover:text-gray-800">
+            Call me 
           </a>
           <a href="#" className="inline-block hover:text-gray-800">
             Privacy Policy
