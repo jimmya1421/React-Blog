@@ -1,4 +1,4 @@
-import './App.css';
+
 import {Route, Routes} from "react-router-dom";
 import Navbar from "./compo/Navbar";
 import Home from './compo/Home';
@@ -12,8 +12,8 @@ function App() {
     <>
  <Navbar />
     <Routes basename="/React-Blog">
-      <Route exact  path={process.env.PUBLIC_URL + '/'} element={<Home />} />
-      <Route path='React-Blog/About' element={<About/>} />
+      <Route exact  path={ '/'} element={<Home />} />
+      <Route path='/About' element={<About/>} />
       <Route path='Blog' element={<Blog/>} />
       <Route path='Post/:postId' element={<Post />} />
     </Routes>

@@ -24,7 +24,7 @@ const Blog = () => {
                 </div>
             </div>
             <div className='mx-auto container '>
-               { (blogPost!=0)? <h2 className='text-xl pb-5 pl-5'>Our Blogs</h2>: <h1></h1> }
+               { (blogPost!==0)? <h2 className='text-xl pb-5 pl-5'>Our Blogs</h2>: <h1> </h1> }
                 <ul className=' columns-1  mx-3 mb-2 '>
                         {blogPost.map((todo) => {
                             return <li key={todo.id} className='bg-gray-100 flex flex-row m-2 p-2 rounded'>

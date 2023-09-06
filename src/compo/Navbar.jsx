@@ -43,7 +43,7 @@ const Navbar = () => {
                 Blog
               </Link>
               <Link
-                to="/about"
+                to="/About"
                 className="inline-block py-2 px-4 text-gray-700 hover:text-black font-bold"
               >
                 About
